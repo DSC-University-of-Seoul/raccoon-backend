@@ -21,6 +21,7 @@ connectMongo().then(() => {
       extended: true,
     })
   );
+
   // Log everything at dev level.
   app.use(morgan("dev"));
   // Use main router.
