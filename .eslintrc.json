@@ -10,6 +10,16 @@
 	"extends": ["plugin:prettier/recommended"],
 	"plugins": ["prettier"],
 	"rules": {
+		"prettier/prettier": [
+			"error",
+			{
+				"printWidth": 80,
+				"useTabs": true,
+				"endOfLine": "auto",
+				"singleQuote": true,
+				"arrowParens": "always"
+			}
+		]
 		"prettier/prettier": "error"
 	}
 }
